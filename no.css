@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+#main_menu{
+    
+    background-color: goldenrod;
+    height: 52px;
+    
+}
+.container{
+    
+    width: 1320px;
+    
+    margin: 0 auto;
+
+}
+.clear{
+    clear: both;
+}
+.logo{
+    
+    width: 20%;
+    
+    float: left;
+}
+.menu{
+     
+    width: 80%;
+    
+    float: left;
+}
+#main_menu ul li{
+    
+    display: inline-block;
+    line-height: 52px;
+}
+
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+li{
+    list-style: none;
+}
+#main_menu ul{
+    
+    text-align: right;
+}
+#main_menu ul li a{
+    
+    font-size: 16px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-left: 20px;
+    transition: 1s;
+    padding: 0 20px;
+}
+#main_menu ul li a:hover{
+    color: black;
+    background-color: goldenrod;
+}
+.banner{
+    
+    background: url(../form-cit1/images/bg.jfif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+
+}
+.gt{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
